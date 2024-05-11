@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis Proyectos de Programación</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mis Proyectos de Programación</h1>
+      <h2>Karla Stefanía Cruz Muñiz</h2>
+    </header>
+    <div class="slider">
+      <div class="slide">
+        <img
+          src="proyectodif.jpg"
+          alt="Proyecto para DIF Atizapán"
+          data-description="videodif.mp4"
+          data-project-description="Este proyecto se hizo para el DIF Atizapán, consta de un sistema con una base de datos de SQL Server, dos aplicaciones hechas con Android Studio y una página web que están conectados entre ellos y fueron diseñados para facilitar y mejorar la velocidad de acceso para los comensales de los comedores comunitarios."
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="proyectociudad.jpeg"
+          alt="Proyecto de una ciudad multiagentes"
+          data-description="videociudad.MOV"
+          data-project-description="Este proyecto fue diseñado con la intención de trabajar con sistemas multiagentes y se utilizó un sistema de MESA y de Unity para poder lograrlo."
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="proyectored.png"
+          alt="Proyecto de una red para el Tec"
+          data-description="videored.mp4"
+          data-project-description="Este proyecto consistió en crear una red con múltiples subredes para poder manejar toco el tráfico durante un evento grande del Tecnológico de Monterrey, se tuvieron que tomar en cuenta distintas opciones para que se pudiera dar el evento y la instalación de la red de forma adecuada."
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="proyectovideojuego.png"
+          alt="Proyecto de un videojuego para Crack the Code"
+          data-description="proyectovideojuego.mp4"
+          data-project-description="Proyecto que consistió en la generación de un videojuego, página web y base de datos para captura de leads para Crack the Code, utilizando html, css y Unity como herramientas para el desarrollo, así como una base de datos en SQL Server."
+        />
+      </div>
+    </div>
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-title"></h2>
+        <div class="video-container" id="video-container">
+          <video id="modal-video" controls autoplay></video>
+        </div>        
+        <p id="modal-description"></p>
+      </div>
+    </div>    
+    <script src="script.js"></script>
+  </body>
+</html>
